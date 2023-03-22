@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 import cv2.aruco as aruco
 import time
-from ArUco_library import *
+from aruco_library import *
 
 
 image_list = ["../Test_images/Test_image1.png","../Test_images/Test_image2.png"]

@@ -14,7 +14,7 @@ This node publishes and subsribes the following topics:
 	/camera/camera/image_raw			/marker_info
 '''
 from sensor_msgs.msg import Image
-from task_1.msg import Marker
+from Marker.msg import Marker
 from cv_bridge import CvBridge, CvBridgeError
 import cv2
 import numpy as np
